@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "node scripts/copy-404.js",
     "preview": "vite preview",
     "postinstall": "echo \"Project ready. Run 'npm run dev'\"",
     "predeploy": "npm run build",

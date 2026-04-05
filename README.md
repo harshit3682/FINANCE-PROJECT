@@ -72,3 +72,22 @@ src/
 - Role switcher defaults to Viewer; switch to Admin to add/edit/delete.
 - Search accepts category names or `YYYY-MM`-style strings to match dates.
 
+## 🚀 Deployment
+Deploy to GitHub Pages in one command.
+
+1) Replace placeholders:
+- In `package.json`: `"homepage": "https://YOUR_USERNAME.github.io/REPO_NAME"`
+- In `vite.config.js`: `base: "/REPO_NAME/"`  // Replace with your repo name
+
+2) Deploy:
+```bash
+npm install
+npm run deploy
+```
+This builds and publishes the `dist` folder to the `gh-pages` branch.
+
+3) Enable Pages in GitHub repo settings (use `gh-pages` branch).
+
+Routing note: If using React Router, prefer `HashRouter` on GitHub Pages, or keep `BrowserRouter` with the included `404.html` fallback.
+
+Live demo: https://YOUR_USERNAME.github.io/REPO_NAME
