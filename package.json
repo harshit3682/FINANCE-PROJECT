@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://harshit3682.github.io/FINANCE-PROJECT",
+  "homepage": "https://github.com/harshit3682/FINANCE-PROJECT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
